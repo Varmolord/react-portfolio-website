@@ -8,13 +8,15 @@ import Portfolio from './components/portfolio/portfolio'
 import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import Settings from './components/settings/settings';
+import Settings from './components/settings/settings'
+import Login from './components/login/login'
 
 export const App = () => {
   return (
     <>
-    <Settings />
+        <Settings />
         <Header />
+        <Login/>
         <Nav />
         <About />
         <Experience />

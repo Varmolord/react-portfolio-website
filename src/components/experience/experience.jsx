@@ -95,7 +95,14 @@ export const experience = () => {
                   <h4>Python</h4>
                   <small className='text-light'>Středně pokročilý</small> 
                   </div>
-            </article>            
+            </article>        
+            <article className='experience__details'>
+            <FaCheckCircle className='experience__details-icon'/>
+                  <div>
+                  <h4>Bash</h4>
+                  <small className='text-light'>Začátečník</small> 
+                  </div>
+            </article>         
             </div>
         </div>
         <div className="experience__graphics">
